@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mehfil | Pakistani Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            MEHFIL<span>✦</span>
+        </div>
+
+        <button id="menuToggle" class="menu-toggle">☰</button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#booking">Booking</a>
+        </div>
+
+        <a href="#booking" class="reserve-btn">Reserve Table</a>
+
+    </nav>
+</header>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="small-title">AUTHENTIC PAKISTANI CUISINE</p>
+
+        <h1>
+            Taste that feels
+            <span>like home.</span>
+        </h1>
+
+        <p class="hero-text">
+            Welcome to Mehfil, where traditional Pakistani flavors
+            meet a modern dining experience.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#menu" class="primary-btn">Explore Menu →</a>
+            <a href="#booking" class="secondary-btn">Book a Table</a>
+        </div>
+
+        <div class="stats">
+
+            <div>
+                <strong>25+</strong>
+                <small>Special Dishes</small>
+            </div>
+
+            <div>
+                <strong>4.9★</strong>
+                <small>Customer Rating</small>
+            </div>
+
+            <div>
+                <strong>10+</strong>
+                <small>Years Taste</small>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-image-box">
+
+        <div class="glow"></div>
+
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85"
+                 alt="Pakistani Food">
+        </div>
+
+        <div class="food-badge">
+            <span>CHEF'S CHOICE</span>
+            <b>Special Handi 🍲</b>
+        </div>
+
+        <div class="round-badge">
+            FRESH<br>
+            DAILY
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="about" id="about">
+
+    <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=85"
+             alt="Restaurant Interior">
+    </div>
+
+    <div class="about-content">
+
+        <p class="small-title">OUR STORY</p>
+
+        <h2>
+            Every meal has
+            <span>a story.</span>
+        </h2>
+
+        <p>
+            Mehfil is a place where delicious food and beautiful
+            memories come together. Our menu is inspired by
+            traditional Pakistani recipes.
+        </p>
+
+        <p>
+            From family dinners to special celebrations,
+            we make every gathering feel special.
+        </p>
+
+        <div class="about-boxes">
+
+            <div>
+                <span>01</span>
+                <b>Traditional Recipes</b>
+            </div>
+
+            <div>
+                <span>02</span>
+                <b>Fresh Ingredients</b>
+            </div>
+
+            <div>
+                <span>03</span>
+                <b>Warm Hospitality</b>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- MENU -->
+<section class="section" id="menu">
+
+    <div class="section-heading">
+
+        <p class="small-title">OUR MENU</p>
+
+        <h2>
+            Something delicious
+            <span>for everyone.</span>
+        </h2>
+
+        <p>
+            Explore our selection of traditional favorites.
+        </p>
+
+    </div>
+
+
+    <div class="filters">
+
+        <button class="filter active" data-filter="all">All</button>
+
+        <button class="filter" data-filter="rice">Rice</button>
+
+        <button class="filter" data-filter="bbq">BBQ</button>
+
+        <button class="filter" data-filter="curry">Curries</button>
+
+        <button class="filter" data-filter="dessert">Desserts</button>
+
+    </div>
+
+
+    <div class="food-grid">
+
+        <!-- FOOD 1 -->
+        <div class="food-card" data-category="rice">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1563379091339-03246963d96c?auto=format&fit=crop&w=700&q=85"
+                     alt="Biryani">
+
+                <span>POPULAR</span>
+
+            </div>
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Chicken Biryani</h3>
+                    <p>Fragrant rice with tender chicken</p>
+                </div>
+
+                <strong>Rs. 650</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOD 2 -->
+        <div class="food-card" data-category="bbq">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=700&q=85"
+                     alt="Kebab">
+
+            </div>
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Seekh Kebab</h3>
+                    <p>Juicy charcoal grilled kebabs</p>
+                </div>
+
+                <strong>Rs. 720</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOD 3 -->
+        <div class="food-card" data-category="curry">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=700&q=85"
+                     alt="Karahi">
+
+            </div>
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Chicken Karahi</h3>
+                    <p>Tomato, ginger and green chilli</p>
+                </div>
+
+                <strong>Rs. 950</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOD 4 -->
+        <div class="food-card" data-category="curry">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=700&q=85"
+                     alt="Curry">
+
+            </div>
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Butter Chicken</h3>
+                    <p>Creamy curry with aromatic spices</p>
+                </div>
+
+                <strong>Rs. 890</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOD 5 -->
+        <div class="food-card" data-category="bbq">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=85"
+                     alt="BBQ Platter">
+
+            </div>
+
+            <div class="food-info">
+
+                <div>
+                    <h3>BBQ Platter</h3>
+                    <p>Tikka, boti and grilled kebabs</p>
+                </div>
+
+                <strong>Rs. 1,850</strong>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOD 6 -->
+        <div class="food-card" data-category="dessert">
+
+            <div class="food-image">
+
+                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=700&q=85"
+                     alt="Dessert">
+
+            </div>
+
+            <div class="food-info">
+
+                <div>
+                    <h3>Royal Kheer</h3>
+                    <p>Traditional creamy rice pudding</p>
+                </div>
+
+                <strong>Rs. 350</strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SPECIAL -->
+<section class="special">
+
+    <div>
+        <p class="small-title">MEHFIL SPECIAL</p>
+
+        <h2>
+            Weekend
+            <span>Family Platter</span>
+        </h2>
+
+        <p>
+            A generous combination of BBQ, rice,
+            naan and traditional sides.
+        </p>
+
+        <a href="#booking" class="primary-btn">Reserve Now →</a>
+    </div>
+
+    <div class="special-image">
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+             alt="Food Platter">
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+<section class="section services" id="services">
+
+    <div class="section-heading">
+
+        <p class="small-title">OUR SERVICES</p>
+
+        <h2>
+            Made for
+            <span>every occasion.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="service-grid">
+
+        <div class="service-card">
+            <div>🍽️</div>
+            <h3>Dine In</h3>
+            <p>Enjoy fresh food in our comfortable dining space.</p>
+        </div>
+
+        <div class="service-card">
+            <div>🎉</div>
+            <h3>Events</h3>
+            <p>Celebrate birthdays and family occasions with us.</p>
+        </div>
+
+        <div class="service-card">
+            <div>🛵</div>
+            <h3>Takeaway</h3>
+            <p>Take your favorite Mehfil dishes home.</p>
+        </div>
+
+        <div class="service-card">
+            <div>👨‍🍳</div>
+            <h3>Fresh Kitchen</h3>
+            <p>Our chefs prepare every order fresh.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- GALLERY -->
+<section class="gallery-section" id="gallery">
+
+    <div class="section-heading">
+
+        <p class="small-title">GALLERY</p>
+
+        <h2>
+            A glimpse of
+            <span>Mehfil.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="gallery">
+
+        <div class="gallery-item large">
+            <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=85"
+                 alt="Food">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=700&q=85"
+                 alt="Dining">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=700&q=85"
+                 alt="Table">
+        </div>
+
+        <div class="gallery-item wide">
+            <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1000&q=85"
+                 alt="Restaurant">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BOOKING -->
+<section class="booking" id="booking">
+
+    <div class="booking-content">
+
+        <p class="small-title">RESERVATION</p>
+
+        <h2>
+            Reserve your
+            <span>Mehfil.</span>
+        </h2>
+
+        <p>
+            Choose your date, time and number of guests.
+            We will be ready to welcome you.
+        </p>
+
+        <div class="hours">
+            <b>Opening Hours</b>
+            <span>Monday – Sunday</span>
+            <span>12:00 PM – 11:30 PM</span>
+        </div>
+
+    </div>
+
+
+    <form id="bookingForm">
+
+        <div class="input-row">
+
+            <div>
+                <label>Your Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div>
+                <label>Guests</label>
+
+                <select required>
+                    <option value="">Select</option>
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5+ Guests</option>
+                </select>
+
+            </div>
+
+        </div>
+
+
+        <div class="input-row">
+
+            <div>
+                <label>Date</label>
+                <input type="date" required>
+            </div>
+
+            <div>
+                <label>Time</label>
+                <input type="time" required>
+            </div>
+
+        </div>
+
+
+        <label>Special Request</label>
+
+        <textarea placeholder="Write your message..."></textarea>
+
+        <button type="submit">
+            Confirm Booking ✦
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-brand">
+
+        <div class="logo">
+            MEHFIL<span>✦</span>
+        </div>
+
+        <p>
+            Authentic flavors, memorable moments.
+        </p>
+
+    </div>
+
+
+    <div>
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+    </div>
+
+
+    <div>
+        <h4>Contact</h4>
+        <p>📍 Lahore, Pakistan</p>
+        <p>☎ +92 300 1234567</p>
+        <p>✉ hello@mehfil.com</p>
+    </div>
+
+
+    <div>
+        <h4>Follow Us</h4>
+        <p>Instagram</p>
+        <p>Facebook</p>
+        <p>WhatsApp</p>
+    </div>
+
+
+    <div class="copyright">
+        © 2026 Mehfil Restaurant. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
